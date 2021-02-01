@@ -1,0 +1,91 @@
+
+header div.hero {
+  background-image: url("../imgs/hr480.jpg");
+  background-position: bottom center;
+  font-family: 'Space Mono', monospace;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  height: 750px;
+  text-align:center;
+
+}
+header div.hero div{
+   min-height: 50vh;
+}
+body{
+  font-family: 'Space Mono', monospace;
+}
+.title{
+  font-family: 'Space Mono', monospace;
+  font-size: 2rem;
+  text-shadow: 1px 1px #fff;
+}
+
+.card img{
+  width:100%;
+}
+main{
+  background-color: rgba(36, 35, 35, 0.171);
+  transform: translatey(-6em);
+  font-family: 'Space Mono', monospace;
+}
+section.parallax{
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../imgs/parallax.jpg");
+  font-family: 'Space Mono', monospace;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content:center;
+}
+header div div form label{
+  color: white;
+}
+
+form {
+  font-size: 1rem !important;
+}
+@media (min-width: 768px) {
+        header div.hero {
+            background-image: url("../imgs/hr780.jpg");
+            min-height: 80vh;
+        }
+        form{
+          font-size: 2rem !important;
+        }
+        
+        .title{
+          font-size: 2rem;
+          text-shadow: 3px 3px 3px #fff;
+          background-color: rgba(255, 255, 255, 0.452);
+          padding:0.7em;
+          width:50%;
+        }
+        header div div form label{
+          color: white;
+        }
+      }
+
+@media (min-width: 992px) {
+        header div.hero {
+            background-image: url("../imgs/hr.jpg");
+        }
+         .title{
+          max-width:1024px;
+          margin:1em auto;
+          font-size: 3em;
+        }
+        header div div form label{
+          color: rgb(8, 8, 8);
+        }
+      }
+
